@@ -1,0 +1,88 @@
+/* General Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F5F5F5;
+	padding: 20px;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+section {
+	margin: 40px auto;
+	width: 80%;
+	max-width: 800px;
+}
+
+section h2 {
+	margin-bottom: 20px;
+}
+
+section ul {
+	margin-left: 40px;
+}
+
+/* Form Styles */
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+form div {
+	flex: 1;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+form input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #F5F5F5;
+	margin-top: 5px;
+}
+
+form input[type="submit"] {
+	background-color: #000;
+	color: #FFF;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+	background-color: #333;
+}

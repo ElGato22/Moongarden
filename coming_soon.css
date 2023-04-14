@@ -1,0 +1,21 @@
+/* Set background color and font family */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the heading and set font size and color */
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #555;
+  }
+  
+  /* Set maximum width for the image and center it */
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
